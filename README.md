@@ -1,6 +1,6 @@
 # StudyFlow: Mobile-First Productivity Tracker 🚀
 
-A full-stack Python application developed entirely on Android to track and analyze study distractions during CBSE Class 10, Class 12 board ,Competetive exams Or any other academic preparation.
+A full-stack Python application developed entirely on Android to track and analyze study distractions during Boards and Competetive exams or any other preparation.
 
 ## 🌟 The "Shreya" Perspective
 Preparing for competitive exams like WBJEE,CUET and IIIT-H requires intense focus. I built this tool to move from "feeling" distracted to "measuring" distractions using data science principles.
