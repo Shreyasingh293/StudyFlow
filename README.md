@@ -38,9 +38,13 @@ mysql-connector-python
 
 3. Setup the Database (Termux)
 ​Open Termux and run these commands one by one:
+
 I)Install MariaDB: pkg install mariadb
+
 II)Start the Server: mysqld_safe -u root &
+
 III)Enter SQL: mariadb -u root
+
 IV)Create the Project Space:
 
 CREATE DATABASE StudyFlow;
