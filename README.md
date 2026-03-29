@@ -24,9 +24,11 @@ The project follows a modular "3-Tier" architecture:
 - **Subject-Specific Analytics**: Filters distractions by subject (Physics, Chemistry, Maths).
 
 ## 🚀 How to Run Step-by-Step Setup Guide (Android)
-​Follow these steps exactly to get StudyFlow running on your device.
+​Follow these steps exactly to get StudyFlow running on your device:-
+
 ​1. Install the Essentials
 ​Download these two apps from the Play Store:
+
 ​Pydroid 3: For running the Python code.
 ​Termux: For hosting the MariaDB database.
 
@@ -55,6 +57,6 @@ CREATE TABLE distractions (
 4. Run `logger.py` in Pydroid 3 to log a session.
 5. Run `analyzer.py` to see your biggest "Distraction Enemy."
 
-​🛠️ Common Troubleshooting (The "Error 2002" Fix)
+## ​🛠️ Common Troubleshooting (The "Error 2002" Fix)
 ​If you see ERROR 2002 (HY000): Can't connect to local server, it means the database server is sleeping. 
 The Fix: Go to Termux and type mysqld_safe -u root &. Wait 10 seconds, and try again!
