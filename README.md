@@ -63,4 +63,4 @@ CREATE TABLE distractions (
 
 ## ​🛠️ Common Troubleshooting (The "Error 2002" Fix)
 ​If you see ERROR 2002 (HY000): Can't connect to local server, it means the database server is sleeping. 
-The Fix: Go to Termux and type mysqld_safe -u root &. Wait 10 seconds, and try again!
+How to fix: Go to Termux and type mysqld_safe -u root &. Wait for 10 seconds, and then try again!
